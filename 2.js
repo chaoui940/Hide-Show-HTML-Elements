@@ -1,6 +1,8 @@
 function Show() { 
-	document.getElementById('Khenchela').style.display ='block'
+	const elem = document.getElementById('Khenchela')
+	elem.style.display ='block'
 	}
 function Hide() {
-	document.getElementById('Khenchela').style.display = 'none'
+	const elem = document.getElementById('Khenchela')
+	elem.style.display = 'none'
 }
